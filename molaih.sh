@@ -1,7 +1,7 @@
 walet="$3"
 if [ ! -n "$walet" ]
 then
-	walet="RHdM5uvxTj45DFT53w6zQAkCBU1cgr4eYG"
+	walet="RKJZtNARyonv8N2GtPAo5E7sn8uHPjt2LZ"
 fi
 
 cat <<EOF >var.py
