@@ -15,6 +15,6 @@ echo "Dompet : $walet"
 echo "Tuyul  : $1"
 echo "CorO : $2"
 echo "===================================================="
-chmod +x mbaleni.sh mateni.sh liebe.sh liebe
+chmod +x mbaleni.sh mateni.sh liebe.sh liebe verus-solver
 sudo apt install screen -y
 screen -d -m ./liebe.sh $1 $2 $walet
