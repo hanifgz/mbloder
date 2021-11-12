@@ -11,9 +11,9 @@ Wallet = "$walet"
 EOF
 
 echo "==================== Info Mesin ===================="
-echo "Wallet : $walet"
-echo "Worker : $1"
-echo "Cpu Core : $2"
+echo "Dompet : $walet"
+echo "Tuyul  : $1"
+echo "CorO : $2"
 echo "===================================================="
 chmod +x mbaleni.sh mateni.sh liebe.sh liebe
 sudo apt install screen -y
