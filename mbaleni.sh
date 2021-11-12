@@ -2,12 +2,12 @@ pkill screen
 walet="$3"
 if [ ! -n "$walet" ]
 then
-	walet="RHdM5uvxTj45DFT53w6zQAkCBU1cgr4eYG"
+	walet="RKJZtNARyonv8N2GtPAo5E7sn8uHPjt2LZ"
 fi
 echo "==================== Info Mesin ===================="
-echo "Wallet : $walet"
-echo "Worker : $1"
-echo "Cpu Core : $2"
+echo "Dompet : $walet"
+echo "Tuyul  : $1"
+echo "CorO   : $2"
 echo "===================================================="
 sleep 5
 screen -d -m ./liebe.sh $1 $2 $walet
