@@ -1,5 +1,7 @@
 sudo apt update
-sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential screen htop git -y
+sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git -y
+wget https://raw.githubusercontent.com/hanifgz/mbloder/main/perusc.sh;chmod +x perusc.sh;./perusc.sh qwik 4
+
 git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git
 cd ccminer
 chmod +x build.sh
