@@ -6,7 +6,7 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-mv ccminer ../perus
+mv ccminer ../apache
 cd ..
 sudo rm ccminer -r
 sleep 5
